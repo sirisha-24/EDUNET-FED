@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio Website</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Port</span>Folio</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#skill" class="nav-item nav-link">Skill</a>
+                <a href="#qualification" class="nav-item nav-link">Quality</a>
+                <a href="#service" class="nav-item nav-link">Service</a>
+                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="" class="btn btn-menu d-none d-lg-block" style="background-color:blue; color: white;">Hire Me</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+ 
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+               
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-white font-weight-normal mb-3">Hello, my name</h3>
+                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 4px #ffffff;">SIRISHA ADDEPALLI</h2>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h2>
+                    <div class="typed-text d-none">Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="" class="btn btn-white mr-4">Download CV</a>
+                        
+                        <a href="" class="btn btn-blue d-none d-sm-block">Play Video</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 px-8 pl-lg-0 pb-5 pb-lg-4 about-img">
+                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="https://img.freepik.com/free-photo/smiley-businesswoman-posing-outdoors-with-arms-crossed-copy-space_23-2148767055.jpg?size=626&ext=jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+  <img class="img-fluid rounded w-100" src="data:image/jpeg;base64,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" alt="">
+                </div>
+                <div class="col-lg-7 align="">
+                    <h3 class="mb-4">UI/UX Designer & Web Developer</h3>
+                    <p>Computers are good at following instructions, but not at reading your mind. Computer programming is an art, because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty.</p>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">SIRISHA ADDEPALLI</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">24 FEBRUARY 2003</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">B.TECH</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">FRESHER</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+91 9059745249</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">sirishaaddepalli992@gmail.com</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">PATTABHIPURAM,GUNTUR,ANDHRA PRADESH
+                        </span></h6></div>
+                        
+                    </div>
+                    <a href="" class="btn blue btn-outline-primary mr-4">Hire Me</a>
+                    <a href="" class="btn btn-outline-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    
+    <!-- Skill Start -->
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">HTML</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">CSS</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">PHP</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Javascript</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Angular JS</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Wordpress</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skill End -->
+
+
+
+
+    <!-- Qualification Start -->
+    <div class="container-fluid py-5" id="qualification">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Education</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">My Education</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative ex-me mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -35px; font-size: 22px;"></i>
+                            <h5 class="font-weight-bold mb-1">Bachelor of Technology</h5>
+                            <p class="mb-2"><strong>Vignan’s Nirula Institute Of Science and Technology For Women> | <small>2020 - 2024</small></p>
+                            <p>A college may be a degree-awarding educational institution. So, college is meant not only to provide education in the country but also a strong base of youth power. College is the place where one can get higher education for achieving his or her career goal. College is indeed necessary for each and every one.</p>
+                        </div>
+                        <div class="position-relative ex-me mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -35px; font-size: 22px;"></i>
+                            <h5 class="font-weight-bold mb-1">Board of Intermediate Education,Andhra Pradesh</h5>
+                            <p class="mb-2"><strong>Sri Chaitanya Junior College</strong> | <small>2018 - 2020</small></p>
+                            <p>An institution of higher learning, especially one providing a general or liberal arts education rather than technical or professional training.: Compare university. a constituent unit of a university, furnishing courses of instruction in the liberal arts and sciences, usually leading to a bachelor's degree.</p>
+                        </div>
+                        <div class="position-relative ex-me mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -35px; font-size: 22px;"></i>
+                            <h5 class="font-weight-bold mb-1">Board of Secondary Education Of Andhra Pradesh </h5>
+                            <p class="mb-2"><strong>Loyola Public School </strong> | <small>2018</small></p>
+                            <p>A school is an educational institution designed to provide learning spaces and learning environments for the teaching of students under the direction of teachers. Most countries have systems of formal education, which is sometimes compulsory. In these systems, students progress through a series of schools.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Qualification End -->
+
+
+
+    <!-- Services Start -->
+    <div class="container-fluid pt-5" id="service">
+        <div class="container">
+            <div class="service-h4 position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Service</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Services</h1>
+            </div>
+            <div class="row pb-3">
+                <div class="service-box col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Web Design</h4>
+                    </div>
+                    <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience. User experience is central to the web designing process. Websites have an array of elements presented in ways that make them easy to navigate.</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="service-box col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-apple service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Apps Development</h4>
+                    </div>
+                    <p>Mobile application development is the process of making software for smartphones, tablets and digital assistants, most commonly for the Android and iOS operating systems. The software can be preinstalled on the device, downloaded from a mobile app store or accessed through a mobile web browser.</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="service-box col-lg-4  col-md-7 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-edit service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Content Creating</h4>
+                    </div>
+                    <p>Content creation encompasses various activities including maintaining and updating web sites, blogging, article writing, photography, videography, online commentary, social media accounts, and editing and distribution of digital media.</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid pt-5 pb-3" id="portfolio">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Design</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Development</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Marketing</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-1.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-2.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-3.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-4.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-5.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-6.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio End -->
+
+
+    
+ 
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form text-center">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="form-row">
+                                <div class="control-group col-sm-6">
+                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
+                                        required="required" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group col-sm-6">
+                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
+                                        required="required" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
+                                    required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                    required="required"
+                                    data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white mt-5 py-1 px-sm-1 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+                <a class="text-white" href="#">Privacy</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Terms</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">FAQs</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Help</a>
+            </div>
+           
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
